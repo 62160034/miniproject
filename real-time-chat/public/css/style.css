@@ -1,0 +1,87 @@
+@font-face {
+  font-family: 'Font';
+  src:url('Mali-Light.ttf') format('truetype');
+}
+body{
+  font-family: "Font", monospace;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 0 20px;
+  background-color: #a4c8d5;
+  
+}
+.button {
+  border-radius: 6px;
+  background-color: inherit; 
+  padding: 7.5px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button1 {
+  color:#17395c;
+}
+
+.button1:hover {
+  background-color:#efa885;
+  color: white;
+}
+.button2 {
+  color:#17395c;
+}
+
+.button2:hover {
+  background-color:#efb758;
+  color: white;
+}
+.button3 {
+  color:#17395c;;
+}
+
+.button3:hover {
+  background-color:#efb758;
+  color: white;
+}
+h4{
+  background-color: #5583a6;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  border-radius: 20px;
+}
+form input{
+  padding: 7px;
+  width: 400px;
+  border-radius: 5px;
+  border: none;
+}
+.inbox{
+  background-color: #ffffff63;
+  border-radius: 20px;
+  border: none;
+  margin: auto;
+}
+
+.outgoing__message{
+  text-align: right;
+  border: 3px ;
+  border-radius: 6px;
+  background-color: lemonchiffon;
+}
+
+.incoming__message{
+  border: 3px;
+  border-radius: 6px;
+  background-color:#cbaacb;
+}
+
+.center {
+  margin: auto;
+  width: 60%;
+  border: 3px solid #666665;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+} 
